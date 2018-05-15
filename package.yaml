@@ -13,6 +13,9 @@ dependencies:
 - base >= 4.7 && < 5
 - serverless-haskell
 - aeson
+- text
+- lens
+- bytestring
 
 executables:
   app:

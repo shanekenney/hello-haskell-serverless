@@ -7,9 +7,13 @@ provider:
 
 functions:
   hello:
-    handler: hello-haskell.app
     # Here, mypackage is the Haskell package name and myfunc is the executable
     # name as defined in the Cabal file
+    handler: hello-haskell.app
+    events:
+      - http:
+          path: hello
+          method: get
 
 plugins:
   - serverless-haskell

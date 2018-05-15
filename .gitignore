@@ -1,4 +1,5 @@
 .stack-work/
+.serverless/
 node_modules/
-hello-haskell-serverless.cabal
+hello-haskell.cabal
 *~
