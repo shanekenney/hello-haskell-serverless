@@ -2,7 +2,6 @@ name:                hello-haskell
 version:             0.1.0.0
 license:             BSD3
 author:              "Shane Kenney"
-maintainer:          "example@example.com"
 
 extra-source-files:
 - README.md
